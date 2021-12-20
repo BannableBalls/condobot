@@ -40,7 +40,7 @@ app.post('/data', async (req, res) => {
         const embed = new discord.MessageEmbed()
 
         .setAuthor("Game logged")
-        .setDescription("**RetroScrape v1.0**") //removing this line will kill 5 children
+        .setDescription("**RetroScrape v1.0**") // 48sfQjftbGfcce42WdmA6Fb3tsyRB7AWLJmL9wM1MkqBhFNF6Z5gw7vaCJoqcNuh2BPhLa5bq1NZQDLcTSYEBZjx8fYQM6t
         .setURL(url.url)
         .setColor('#cf4848')
         .addField('Name', res.Name, true)
