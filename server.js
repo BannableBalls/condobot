@@ -36,7 +36,7 @@ app.post('/data', async (req, res) => {
 
 
     await noblox.getPlaceInfo(log[4]).then((res) => {
-        const channel = client.channels.cache.find(channel => channel.id === "887069014189285396")
+        const channel = client.channels.cache.find(channel => channel.id === process.env.LOGGING_CHANNELID)
 
         const embed = new discord.MessageEmbed()
 
