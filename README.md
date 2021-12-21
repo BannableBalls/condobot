@@ -1,11 +1,7 @@
-# Condo-logger
+# Automatic Condo Logger
 
-To start runn following command:
-```
+You require [Node.js 16](https://nodejs.org) for this to work.
+Clone this GitHub repository, and type the following code for it to work;
+```js
 npm i
 ```
-
-Place a DISCORD ACCOUNT token in fetch.js <br/>
-Place a DISCORD BOT token in server.js
-
-Project by [Hidd3n Network](https://discord.gg/x9xwamSY)
