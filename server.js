@@ -14,8 +14,6 @@ const port = 9000
 app.use(express.json())
 
 
-//©Hidd3n Utilities 2021
-
 app.listen(
     port,
     () => console.log(`app online`)
