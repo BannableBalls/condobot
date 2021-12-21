@@ -2,11 +2,13 @@ const fetch = require("node-fetch")
 const discord = require('discord.js-selfbot-v11')
 const client = new discord.Client()
 const noblox = require("noblox.js")
+const env = require("dotenv").config()
+
 async function go(){
-    client.login("ODc2MTI5MTMxMjgzMjM4OTYz.YUimrg.C7e9pK7yU_8O8qKMhoUcFU4aaVc") // ACCOUNT TOKEN NOT >BOT TOKEN
+    client.login(process.env.USR_TOKEN)
 
     client.on('ready', () => {
-        console.log(`Logged in as ${client.user.tag}`)
+        console.log(`CLIENT: Logged in as ${client.user.tag}`) // If you don't get this msg upon starting the bot, your Discord client token is incorrect
     })
     
     client.on('message', async boba => {
